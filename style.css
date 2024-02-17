@@ -1,0 +1,101 @@
+body {
+  background-color: #170C08;
+}
+.main-space{
+  width: 99%;
+  height: 98vh;
+  margin:auto;
+  background-color: #FFD363;
+  border-radius: 40px;
+}
+.top-stripe{
+  width: 100%;
+  height: 40px;
+  margin:auto;
+  background-color: #FFD363;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20%;
+  border-radius: 20px 20px 0px 0px;
+}
+.button-place{
+  height: 30px;
+  background-color: #170C08;
+  border-radius: 0px 0px 20px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 25px; color: #FBFAF5; font-family: Arial, Helvetica, sans-serif; font-weight: 700;
+}
+.information-stripe{
+  width: 97.25%;
+  height: 50px;
+  border: 3px solid #170C08;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #FFD363;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-place{
+  width: 97.25%;
+  height: 80vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-image: url("a.png");
+  background-size: 100%;
+  background-position: 0px -150px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: 7fr 3fr;
+
+}
+.mainbutton-place{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-contain{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.generation{
+  width: 450px;
+  height: 100px;
+  background-color: #170C08;
+  border: none;
+  border-radius: 20px;
+  font-size: 65px; color: #FBFAF5; font-family: Arial, Helvetica, sans-serif; font-weight: 700;
+}
+
+.stripe_text{
+  font-size: 25px; color: #170C08;
+  font-family: Arial, Helvetica, sans-serif; font-weight: 700;
+}
+.main_text{
+  font-size: 90px; color: #170C08; display: block; font-family: Arial, Helvetica, sans-serif; font-weight: 700;
+  padding-top: 190px;
+}
+.generation:hover{
+  color: #ddd7bb;
+  font-size: 66px;
+  width: 451px;
+  height: 101px;
+
+}
+.button-place:hover{
+  color: #ddd7bb;
+  font-size: 26px;
+  height: 31px;
+}
